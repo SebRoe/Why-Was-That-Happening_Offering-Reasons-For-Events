@@ -9,7 +9,8 @@ Retrospectives:
 
 Mario is targeting the powerup because the player did not collide with the powerup (-0.177), because
  the player had not already collected the powerup (-0.059) and because the score had a negative infl
-uence on it (-0.188) and mostly altough the powerup was not targeted (0.471) with the action before.
+uence on it (-0.188) and mostly altough the powerup was not targeted (0.471) through the action befo
+re.
 
 
 Mario is not targeting the powerup last action because the score had a negative influence on it (-0.
@@ -31,22 +32,22 @@ erup (0.082) and postive the goldcoin did exist (0.056) the time step before.
 
 Mario is not targeting the goal 2 action(s) ago mostly because the powerup did exist (-0.153), becau
 se the player had not already collected the powerup (0.146), because the powerup was targeted (-0.04
-9) and altough the goal was not targeted (-0.069) through the action before.
+9) and altough the goal was not targeted (-0.069) due to the action before.
 
 
 The powerup was not collected last time step mostly because the player did not collide with the powe
 rup (0.716), because the powerup did exist (-0.337), because the player had not already collected th
-e powerup (0.302) and altough the goal was not targeted (-0.115) due to the action before.
+e powerup (0.302) and altough the goal was not targeted (-0.115) with the action before.
 
 
 The powerup does exist 2 time step(s) ago mostly because the player did not collide with the powerup
  (-0.717), because the powerup did exist (0.33), because the player had not already collected the po
-werup (-0.311) and altough the goal was not targeted (0.122) through the action before.
+werup (-0.311) and altough the goal was not targeted (0.122) with the action before.
 
 
 Mario is not colliding with the powerup last action because the goldcoin was not targeted (0.012), m
 ostly altough the powerup was targeted (0.07) and altough the player did not collide with the poweru
-p (-0.018) with the action before.
+p (-0.018) due to the action before.
 
 
 Mario is not targeting the goldcoin 2 action(s) ago mostly because the goldcoin was not targeted (0.

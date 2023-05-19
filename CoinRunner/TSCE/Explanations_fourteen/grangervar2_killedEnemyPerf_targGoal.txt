@@ -24,7 +24,7 @@ s targeted (0.023) and altough the goldcoin did exist (0.01) continously in the 
 
 
 The goldcoin does exist 5 time step(s) ago because the player did not collide with the goldcoin (-0.
-013) through the action before.
+013) due to the action before.
 
 
 Mario is not targeting the goldcoin 5 action(s) ago mostly because the goal was targeted (-0.072), b

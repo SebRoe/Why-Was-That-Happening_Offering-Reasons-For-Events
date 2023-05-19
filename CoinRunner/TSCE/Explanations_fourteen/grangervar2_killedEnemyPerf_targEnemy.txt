@@ -15,11 +15,11 @@ revious time step.
 
 The score has a influence 5 time step(s) ago mostly postive the player did not collide with the enem
 y (4.458), because the score had a postive influence on it (0.596), negative the goal was not target
-ed (-1.471) and negative the enemy was targeted (-1.045) due to the action before.
+ed (-1.471) and negative the enemy was targeted (-1.045) through the action before.
 
 
-Mario is not colliding with the goal 5 action(s) ago because the goal was not targeted (0.012) with 
-the action before.
+Mario is not colliding with the goal 5 action(s) ago because the goal was not targeted (0.012) due t
+o the action before.
 
 
 The game is not terminated 5 time step(s) ago mostly because the player did not collide with the goa
@@ -34,13 +34,13 @@ d altough the powerup did not exist (-0.083) the time step before.
 
 Mario is not colliding with the powerup 5 action(s) ago mostly because the powerup was not targeted 
 (0.075), because the powerup did not exist (0.025), because the player had already collected the pow
-erup (-0.023) and altough the player did not collide with the powerup (-0.066) with the action befor
-e.
+erup (-0.023) and altough the player did not collide with the powerup (-0.066) due to the action bef
+ore.
 
 
 Mario is not targeting the powerup 5 action(s) ago mostly because the powerup was not targeted (0.19
 1), because the goal was not targeted (0.096), because the powerup did not exist (0.061) and altough
- the player did not collide with the powerup (-0.107) through the action before.
+ the player did not collide with the powerup (-0.107) with the action before.
 
 
 The powerup was collected 5 time step(s) ago mostly because the powerup was not targeted (-0.329), b

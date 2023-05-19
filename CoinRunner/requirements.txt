@@ -2,7 +2,7 @@
 pandas==2.0.1
 seaborn==0.12.2
 ipykernel==6.23.1
-
+ipywidgets==8.0.6
 # TSCE 
 anytree==2.8.0
 

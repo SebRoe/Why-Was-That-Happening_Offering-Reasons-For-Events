@@ -9,8 +9,8 @@ Retrospectives:
 
 Mario is targeting the goal, constantly over action(s) 4 to 5, because the powerup was not targeted 
 (-0.049), mostly altough the powerup did exist (-0.153), altough the player had not already collecte
-d the powerup (0.146) and altough the goal was targeted (-0.069) continously with the previous actio
-n.
+d the powerup (0.146) and altough the goal was targeted (-0.069) continously due to the previous act
+ion.
 
 
 The powerup was not collected last time step mostly because the player did not collide with the powe
@@ -20,7 +20,7 @@ e powerup (0.302) and because the goal was targeted (-0.115) through the action 
 
 The powerup does exist last time step mostly because the player did not collide with the powerup (-0
 .717), because the powerup did exist (0.33), because the player had not already collected the poweru
-p (-0.311) and because the goal was targeted (0.122) through the action before.
+p (-0.311) and because the goal was targeted (0.122) with the action before.
 
 
 Mario is targeting the goal 2 action(s) ago because the goal was not targeted (-0.069), because the 
@@ -30,8 +30,8 @@ yer had not already collected the powerup (0.146) the time step before.
 
 The powerup does exist, constantly over time step(s) 2 to 3, mostly because the player did not colli
 de with the powerup (-0.717), because the powerup did exist (0.33), because the player had not alrea
-dy collected the powerup (-0.311) and altough the goal was not targeted (0.122) continously with the
- previous action.
+dy collected the powerup (-0.311) and altough the goal was not targeted (0.122) continously through 
+the previous action.
 
 
 Mario is not targeting the goal 3 action(s) ago mostly because the powerup did exist (-0.153), becau
@@ -41,12 +41,12 @@ se the player had not already collected the powerup (0.146), altough the goal wa
 
 The powerup was not collected 3 time step(s) ago mostly because the player did not collide with the 
 powerup (0.716), because the powerup did exist (-0.337), because the player had not already collecte
-d the powerup (0.302) and altough the goal was not targeted (-0.115) through the action before.
+d the powerup (0.302) and altough the goal was not targeted (-0.115) with the action before.
 
 
 Mario is not colliding with the powerup 2 action(s) ago mostly because the powerup was not targeted 
 (0.07), altough the player did not collide with the powerup (-0.018) and altough the goldcoin was ta
-rgeted (0.012) due to the action before.
+rgeted (0.012) through the action before.
 
 
 Mario is targeting the goldcoin 3 action(s) ago because the score had a negative influence on it (-0
@@ -56,7 +56,7 @@ ected the powerup (0.026) and altough the powerup did exist (-0.023) the time st
 
 Mario is not colliding with the powerup 3 action(s) ago mostly because the powerup was not targeted 
 (0.07), because the goldcoin was not targeted (0.012) and altough the player did not collide with th
-e powerup (-0.018) with the action before.
+e powerup (-0.018) through the action before.
 
 
 Mario is not targeting the powerup last action mostly because the powerup was not targeted (0.471) a

@@ -19,8 +19,8 @@ geted (0.339) and altough the goldcoin was not targeted (0.024) continously with
 
 The game is not terminated, constantly over time step(s) 34 to 37, mostly because the player did not
  collide with the goal (0.577), because the game is not terminated (0.541), because the goal was tar
-geted (-0.229) and altough the goldcoin was not targeted (-0.031) continously through the previous a
-ction.
+geted (-0.229) and altough the goldcoin was not targeted (-0.031) continously with the previous acti
+on.
 
 
 Mario is not colliding with the goal, constantly over action(s) 34 to 36, mostly altough the goal wa
@@ -28,11 +28,11 @@ s targeted (0.023) and altough the goldcoin did exist (0.01) continously in the 
 
 
 The goldcoin does exist 4 time step(s) ago because the player did not collide with the goldcoin (-0.
-013) with the action before.
+013) through the action before.
 
 
 Mario is not targeting the goldcoin 5 action(s) ago mostly because the goal was targeted (-0.072), b
 ecause the goldcoin was not targeted (0.016), altough the game is not terminated (-0.069) and altoug
-h the player did not collide with the goal (-0.054) through the action before.
+h the player did not collide with the goal (-0.054) with the action before.
 
 
