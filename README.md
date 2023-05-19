@@ -2,12 +2,10 @@
 
 
 
-Dieses Repository ist in drei Teile unterteilt. 
+This repository is divided into three parts.
 
-- Causal Hans 
-- CoinRunner 
-- Evaluation 
+- Causal Hans
+- CoinRunner
+- Evaluation
 
-
-
-Jedes Unterverzeichnis enthält seine eigene Readme und Erklärungen.
+Each subdirectory contains its own Readme and explanations.
