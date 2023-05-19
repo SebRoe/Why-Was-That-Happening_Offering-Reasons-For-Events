@@ -1,0 +1,4 @@
+xgboost==1.7.5
+fastai==2.7.12
+seaborn==0.12.2
+pandas==2.0.1
