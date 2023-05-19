@@ -1,0 +1,2 @@
+- "Terminated" is now 1 TS away from collPlayerEnemy (not poweruped) and or collPlayerGoal
+- Changed to Preprocessing V17

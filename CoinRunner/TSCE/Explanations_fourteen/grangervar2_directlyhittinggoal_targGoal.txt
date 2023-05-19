@@ -1,0 +1,72 @@
+Anticipations:
+Targeting the goal now has a positive effect on the existence of the powerup (0.122), the score (0.0
+93), targeting the powerup (0.011) and a negative effect on collecting the powerup (-0.115) and targ
+eting the goal (-0.069) in the next time step.
+
+
+Retrospectives:
+{'enemyExists': True, 'powerupExists': True}
+
+Mario is targeting the goal, constantly over action(s) 4 to 5, because the powerup was not targeted 
+(-0.049), mostly altough the powerup did exist (-0.153), altough the player had not already collecte
+d the powerup (0.146) and altough the goal was targeted (-0.069) continously with the previous actio
+n.
+
+
+The powerup was not collected last time step mostly because the player did not collide with the powe
+rup (0.716), because the powerup did exist (-0.337), because the player had not already collected th
+e powerup (0.302) and because the goal was targeted (-0.115) through the action before.
+
+
+The powerup does exist last time step mostly because the player did not collide with the powerup (-0
+.717), because the powerup did exist (0.33), because the player had not already collected the poweru
+p (-0.311) and because the goal was targeted (0.122) through the action before.
+
+
+Mario is targeting the goal 2 action(s) ago because the goal was not targeted (-0.069), because the 
+powerup was not targeted (-0.049), mostly altough the powerup did exist (-0.153) and altough the pla
+yer had not already collected the powerup (0.146) the time step before.
+
+
+The powerup does exist, constantly over time step(s) 2 to 3, mostly because the player did not colli
+de with the powerup (-0.717), because the powerup did exist (0.33), because the player had not alrea
+dy collected the powerup (-0.311) and altough the goal was not targeted (0.122) continously with the
+ previous action.
+
+
+Mario is not targeting the goal 3 action(s) ago mostly because the powerup did exist (-0.153), becau
+se the player had not already collected the powerup (0.146), altough the goal was not targeted (-0.0
+69) and altough the powerup was not targeted (-0.049) with the action before.
+
+
+The powerup was not collected 3 time step(s) ago mostly because the player did not collide with the 
+powerup (0.716), because the powerup did exist (-0.337), because the player had not already collecte
+d the powerup (0.302) and altough the goal was not targeted (-0.115) through the action before.
+
+
+Mario is not colliding with the powerup 2 action(s) ago mostly because the powerup was not targeted 
+(0.07), altough the player did not collide with the powerup (-0.018) and altough the goldcoin was ta
+rgeted (0.012) due to the action before.
+
+
+Mario is targeting the goldcoin 3 action(s) ago because the score had a negative influence on it (-0
+.021), mostly altough the goldcoin was not targeted (0.026), altough the player had not already coll
+ected the powerup (0.026) and altough the powerup did exist (-0.023) the time step before.
+
+
+Mario is not colliding with the powerup 3 action(s) ago mostly because the powerup was not targeted 
+(0.07), because the goldcoin was not targeted (0.012) and altough the player did not collide with th
+e powerup (-0.018) with the action before.
+
+
+Mario is not targeting the powerup last action mostly because the powerup was not targeted (0.471) a
+nd because the score had a negative influence on it (-0.188), altough the player did not collide wit
+h the powerup (-0.177) and altough the player had not already collected the powerup (-0.059) the tim
+e step before.
+
+
+The score has a influence 2 time step(s) ago mostly because the score had a postive influence on it 
+(0.432), postive the goal was not targeted (0.093), postive the player had not already collected the
+ powerup (0.082) and postive the goldcoin did exist (0.056) the time step before.
+
+

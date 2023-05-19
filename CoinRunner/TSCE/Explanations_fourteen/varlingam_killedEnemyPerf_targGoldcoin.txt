@@ -1,0 +1,108 @@
+Anticipations:
+Targeting the goldcoin now has a positive effect on targeting the goal (0.027), the score (0.023) an
+d a negative effect on termination of the game (-0.028) and the existence of the enemy (-0.011) in t
+he next time step.
+
+
+Retrospectives:
+{'enemyExists': True, 'powerupExists': False}
+
+The powerup does not exist 5 time step(s) ago mostly because the player did not collide with the ene
+my (0.23), because the powerup was not targeted (0.219) and altough the player did not collide with 
+the powerup (-0.218) due to the action before.
+
+
+Mario is not targeting the powerup 5 action(s) ago because the player did not collide with the enemy
+ (0.15) and because the powerup was not targeted (0.141) due to the action before.
+
+
+Mario is not colliding with the powerup 5 action(s) ago mostly because the powerup was not targeted 
+(0.116), because the powerup did not exist (0.065), because the player had already collected the pow
+erup (-0.053) and altough the player did not collide with the powerup (-0.098) through the action be
+fore.
+
+
+The score has a influence 5 time step(s) ago mostly postive the player did not collide with the enem
+y (4.331), postive the enemy did exist (1.196), negative the goal was not targeted (-1.312) and nega
+tive the enemy was targeted (-1.018) through the action before.
+
+
+The enemy was not killed 5 time step(s) ago mostly because the enemy did exist (-0.234) and because 
+the player had not killed enemy (0.151) the time step before.
+
+
+The enemy does exist 5 time step(s) ago mostly because the enemy did exist (0.364), because the play
+er had not killed enemy (-0.25) and because the score had a postive influence on it (0.085) the time
+ step before.
+
+
+Mario is not colliding with the goal, constantly over action(s) 26 to 28, mostly because the goal wa
+s not targeted (0.019) and altough the player did not collide with the goal (-0.013) continously wit
+h the previous action.
+
+
+Mario is not colliding with the enemy 3 action(s) ago because the player did not collide with the go
+ldcoin (0.014), mostly altough the enemy was targeted (0.059), altough the player did not collide wi
+th the enemy (-0.02) and altough the enemy did exist (0.015) the time step before.
+
+
+Mario is targeting the enemy 4 action(s) ago because the enemy was targeted (0.301), because the pla
+yer did not collide with the enemy (-0.235) and because the player had already collected the powerup
+ (0.152) the time step before.
+
+
+The powerup was collected 5 time step(s) ago mostly because the player did not collide with the enem
+y (-0.219), because the powerup was not targeted (-0.2) and altough the player did not collide with 
+the powerup (0.213) due to the action before.
+
+
+Mario is not colliding with the goldcoin 4 action(s) ago altough the player did not collide with the
+ goldcoin (-0.018) due to the action before.
+
+
+{'enemyExists': False, 'powerupExists': False}
+
+Mario is targeting the goldcoin mostly because the goal was not targeted (-0.072), because the game 
+is not terminated (-0.071), because the player did not collide with the goal (-0.055) and because th
+e enemy did not exist (-0.02) the time step before.
+
+
+The enemy does not exist last time step because the enemy was not targeted (0.182), mostly altough t
+he enemy did exist (0.326), altough the player had not killed enemy (-0.226) and altough the player 
+had already collected the powerup (0.109) the time step before.
+
+
+Mario is not targeting the enemy 2 action(s) ago altough the enemy was targeted (0.301), altough the
+ player did not collide with the enemy (-0.235) and altough the player had already collected the pow
+erup (0.152) the time step before.
+
+
+Mario is not colliding with the goal last action mostly because the goal was not targeted (0.055), b
+ecause the player had not killed enemy (0.017), because the player had already collected the powerup
+ (-0.015) and altough the game is not terminated (-0.011) the time step before.
+
+
+The game is not terminated last time step mostly because the game is not terminated (0.565), because
+ the player did not collide with the goal (0.505), because the player did collide with the enemy (-0
+.362) and altough the goal was not targeted (-0.198) due to the action before.
+
+
+Mario is colliding with the enemy 2 action(s) ago mostly because the enemy was targeted (0.059), bec
+ause the player did not collide with the enemy (-0.02), because the enemy did exist (0.015) and alto
+ugh the player did not collide with the goldcoin (0.014) through the action before.
+
+
+Mario is not targeting the goal last action because the goal was not targeted (0.332), altough the g
+ame is not terminated (-0.463) and altough the player did not collide with the goal (-0.374) due to 
+the action before.
+
+
+The game is not terminated, constantly over time step(s) 26 to 29, mostly because the player did not
+ collide with the goal (0.184), because the game is not terminated (0.17), altough the enemy did exi
+st (0.014) and altough the goal was not targeted (-0.014) continously with the previous action.
+
+
+Mario is not targeting the goal 2 action(s) ago because the goal was not targeted (0.175) and mostly
+ altough the player did not collide with the enemy (-0.38) due to the action before.
+
+

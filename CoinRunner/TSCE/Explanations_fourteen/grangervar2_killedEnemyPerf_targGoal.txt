@@ -1,0 +1,34 @@
+Anticipations:
+Targeting the goal now has a positive effect on targeting the goal (0.339), colliding with the goal 
+(0.023), the score (0.015) and a negative effect on termination of the game (-0.229) and targeting t
+he goldcoin (-0.072) in the next time step.
+
+
+Retrospectives:
+{'enemyExists': False, 'powerupExists': False}
+
+Mario is targeting the goal, constantly over action(s) 33 to 38, mostly because the game is not term
+inated (-0.534), because the player did not collide with the goal (-0.434), because the goal was tar
+geted (0.339) and altough the goldcoin was not targeted (0.024) continously through the previous act
+ion.
+
+
+The game is not terminated, constantly over time step(s) 33 to 37, mostly because the player did not
+ collide with the goal (0.577), because the game is not terminated (0.541), because the goal was tar
+geted (-0.229) and altough the goldcoin was not targeted (-0.031) continously with the previous acti
+on.
+
+
+Mario is not colliding with the goal, constantly over action(s) 33 to 36, mostly altough the goal wa
+s targeted (0.023) and altough the goldcoin did exist (0.01) continously in the previous time step.
+
+
+The goldcoin does exist 5 time step(s) ago because the player did not collide with the goldcoin (-0.
+013) through the action before.
+
+
+Mario is not targeting the goldcoin 5 action(s) ago mostly because the goal was targeted (-0.072), b
+ecause the goldcoin was not targeted (0.016), altough the game is not terminated (-0.069) and altoug
+h the player did not collide with the goal (-0.054) with the action before.
+
+

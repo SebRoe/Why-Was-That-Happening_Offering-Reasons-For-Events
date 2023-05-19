@@ -1,0 +1,73 @@
+Anticipations:
+Killing the enemy now has a positive effect on the score (0.031
+
+
+Retrospectives:
+{'enemyExists': True, 'powerupExists': False}
+
+Mario is not colliding with the goal, constantly over action(s) 25 to 28, because the goal was not t
+argeted (0.012) continously through the previous action.
+
+
+The score has a influence 5 time step(s) ago mostly postive the player did not collide with the enem
+y (4.458), because the score had a postive influence on it (0.596), negative the goal was not target
+ed (-1.471) and negative the enemy was targeted (-1.045) with the action before.
+
+
+The game is not terminated 5 time step(s) ago mostly because the player did not collide with the goa
+l (0.172), because the game is not terminated (0.157) and because the score had a negative influence
+ on it (-0.02) and altough the goal was not targeted (-0.03) with the action before.
+
+
+Mario is targeting the enemy, constantly over action(s) 25 to 28, mostly because the enemy was targe
+ted (0.31), because the player did not collide with the enemy (-0.201), because the powerup did not 
+exist (-0.069) and because the player had already collected the powerup (0.055) continously in the p
+revious time step.
+
+
+Mario is not targeting the goal 5 action(s) ago mostly because the enemy was targeted (-0.254), alto
+ugh the player did not collide with the enemy (-0.24), altough the game is not terminated (-0.09) an
+d altough the powerup did not exist (-0.083) the time step before.
+
+
+Mario is not colliding with the powerup 5 action(s) ago mostly because the powerup was not targeted 
+(0.075), because the powerup did not exist (0.025), because the player had already collected the pow
+erup (-0.023) and altough the player did not collide with the powerup (-0.066) through the action be
+fore.
+
+
+Mario is not targeting the powerup 5 action(s) ago mostly because the powerup was not targeted (0.19
+1), because the goal was not targeted (0.096), because the powerup did not exist (0.061) and altough
+ the player did not collide with the powerup (-0.107) through the action before.
+
+
+The powerup was collected 5 time step(s) ago mostly because the powerup was not targeted (-0.329), b
+ecause the powerup did not exist (-0.167), because the player had already collected the powerup (0.1
+46) and altough the player did not collide with the powerup (0.283) due to the action before.
+
+
+The powerup does not exist 5 time step(s) ago mostly because the powerup was not targeted (0.325), b
+ecause the player had already collected the powerup (-0.163), because the powerup did not exist (0.1
+54) and altough the player did not collide with the powerup (-0.287) with the action before.
+
+
+Mario is not colliding with the enemy 5 action(s) ago altough the enemy was targeted (0.04) through 
+the action before.
+
+
+{'enemyExists': False, 'powerupExists': False}
+
+The enemy was killed mostly because the player did collide with the enemy (0.39), because the enemy 
+was not targeted (-0.311), because the game is not terminated (-0.126) and because the score had a p
+ostive influence on it (0.047) the time step before.
+
+
+Mario is not targeting the enemy last action mostly altough the enemy was targeted (0.31), altough t
+he player did not collide with the enemy (-0.201), altough the powerup did not exist (-0.069) and al
+tough the player had already collected the powerup (0.055) the time step before.
+
+
+Mario is colliding with the enemy last action because the enemy was targeted (0.04) through the acti
+on before.
+
+

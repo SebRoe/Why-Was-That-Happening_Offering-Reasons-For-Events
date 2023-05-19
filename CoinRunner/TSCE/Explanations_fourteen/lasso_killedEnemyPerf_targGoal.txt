@@ -1,0 +1,45 @@
+Anticipations:
+Targeting the goal now has a positive effect on targeting the goal (0.362), the score (0.125), colli
+ding with the goal (0.044) and a negative effect on termination of the game (-0.241), targeting the 
+goldcoin (-0.064) and the existence of the enemy (-0.017) in the next time step.
+
+
+Retrospectives:
+{'enemyExists': False, 'powerupExists': False}
+
+Mario is targeting the goal, constantly over action(s) 33 to 38, mostly because the game is not term
+inated (-0.495), because the player did not collide with the goal (-0.377), because the goal was tar
+geted (0.362) and because the score had a postive influence on it (0.025) continously in the previou
+s time step.
+
+
+The game is not terminated, constantly over time step(s) 33 to 37, mostly because the game is not te
+rminated (0.518), because the player did not collide with the goal (0.518), because the goal was tar
+geted (-0.241) and altough the goldcoin was not targeted (-0.029) continously with the previous acti
+on.
+
+
+Mario is not targeting the enemy 5 action(s) ago because the enemy was not targeted (0.178), because
+ the game is not terminated (0.103) and because the score had a negative influence on it (-0.032) an
+d mostly altough the player did not collide with the enemy (-0.186) through the action before.
+
+
+Mario is not colliding with the enemy 5 action(s) ago mostly because the enemy was not targeted (0.0
+99) and because the score had a negative influence on it (-0.019) and altough the player did not col
+lide with the enemy (-0.094) due to the action before.
+
+
+The score has a influence 5 time step(s) ago mostly postive the player did not collide with the enem
+y (3.243), because the score had a postive influence on it (0.543), negative the enemy was not targe
+ted (-2.692) and negative the game is not terminated (-1.137) the time step before.
+
+
+Mario is not targeting the goldcoin 5 action(s) ago mostly because the goal was targeted (-0.064), b
+ecause the goldcoin was not targeted (0.022), altough the game is not terminated (-0.058) and altoug
+h the player did not collide with the goal (-0.041) due to the action before.
+
+
+Mario is not colliding with the goal 5 action(s) ago altough the goal was targeted (0.044) due to th
+e action before.
+
+

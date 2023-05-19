@@ -1,0 +1,38 @@
+Anticipations:
+Targeting the goal now has a positive effect on the score (0.082), the existence of the powerup (0.0
+33), colliding with the powerup (0.011) and a negative effect on collecting the powerup (-0.041) and
+ targeting the goal (-0.033) in the next time step.
+
+
+Retrospectives:
+{'enemyExists': True, 'powerupExists': True}
+
+Mario is targeting the goal because the player did not collide with the powerup (-0.123), mostly alt
+ough the player had not already collected the powerup (0.143) and altough the powerup did exist (-0.
+112) the time step before.
+
+
+Mario is not colliding with the powerup last action mostly because the powerup was not targeted (0.0
+91), altough the player did not collide with the powerup (-0.038), altough the game is not terminate
+d (-0.025) and altough the player had not already collected the powerup (-0.023) the time step befor
+e.
+
+
+The powerup was not collected 2 time step(s) ago mostly because the player did not collide with the 
+powerup (0.541) through the action before.
+
+
+The game is not terminated 2 time step(s) ago altough the game is not terminated (-0.013) the time s
+tep before.
+
+
+Mario is not targeting the powerup 2 action(s) ago mostly because the powerup was not targeted (0.65
+1), altough the player did not collide with the powerup (-0.132) and altough the powerup did exist (
+0.12) the time step before.
+
+
+The powerup does exist 3 time step(s) ago mostly because the player did not collide with the powerup
+ (-0.482) and because the player had not already collected the powerup (-0.119) the time step before
+.
+
+

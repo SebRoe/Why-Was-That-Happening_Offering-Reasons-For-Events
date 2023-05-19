@@ -1,0 +1,81 @@
+Anticipations:
+Targeting the goldcoin now has a positive effect on targeting the goldcoin (0.022) and targeting the
+ goal (0.02) and a negative effect on termination of the game (-0.029) in the next time step.
+
+
+Retrospectives:
+{'enemyExists': True, 'powerupExists': False}
+
+Mario is not colliding with the goal 5 action(s) ago because the goal was not targeted (0.018) with 
+the action before.
+
+
+The powerup does not exist 3 time step(s) ago mostly because the powerup was not targeted (0.352), b
+ecause the player had already collected the powerup (-0.169), because the powerup did not exist (0.1
+63) and altough the player did not collide with the powerup (-0.238) with the action before.
+
+
+The powerup was collected 3 time step(s) ago mostly because the powerup was not targeted (-0.352), b
+ecause the powerup did not exist (-0.172), because the player had already collected the powerup (0.1
+59) and altough the player did not collide with the powerup (0.237) with the action before.
+
+
+Mario is not colliding with the powerup 4 action(s) ago mostly because the powerup was not targeted 
+(0.13), because the player had already collected the powerup (-0.042), because the powerup did not e
+xist (0.035) and altough the player did not collide with the powerup (-0.043) due to the action befo
+re.
+
+
+Mario is not targeting the powerup 4 action(s) ago mostly because the powerup was not targeted (0.23
+3), because the goal was not targeted (0.077), because the player had already collected the powerup 
+(-0.075) and altough the player did not collide with the powerup (-0.092) through the action before.
+
+
+Mario is not colliding with the enemy 3 action(s) ago altough the enemy was targeted (0.056) due to 
+the action before.
+
+
+Mario is targeting the enemy 3 action(s) ago mostly because the enemy was targeted (0.328), because 
+the player did not collide with the enemy (-0.182), because the powerup did not exist (-0.114) and b
+ecause the player had already collected the powerup (0.105) the time step before.
+
+
+{'enemyExists': False, 'powerupExists': False}
+
+Mario is targeting the goldcoin, constantly over action(s) 30 to 31, mostly because the goal was not
+ targeted (-0.064), because the game is not terminated (-0.058), because the player did not collide 
+with the goal (-0.041) and because the goldcoin was targeted (0.022) continously through the previou
+s action.
+
+
+The game is not terminated last time step mostly because the game is not terminated (0.518), because
+ the player did not collide with the goal (0.518), because the goldcoin was targeted (-0.029) and al
+tough the goal was not targeted (-0.241) due to the action before.
+
+
+Mario is targeting the goldcoin 2 action(s) ago because the player did not collide with the enemy (-
+0.029), because the powerup did not exist (-0.011), because the player had already collected the pow
+erup (0.011) and mostly altough the enemy was targeted (-0.039) through the action before.
+
+
+Mario is not targeting the goal last action because the goal was not targeted (0.362) and because th
+e score had a postive influence on it (0.025), mostly altough the game is not terminated (-0.495) an
+d altough the player did not collide with the goal (-0.377) through the action before.
+
+
+The game is not terminated, constantly over time step(s) 26 to 29, mostly because the game is not te
+rminated (0.158), because the player did not collide with the goal (0.158) and because the score had
+ a negative influence on it (-0.019) and altough the goal was not targeted (-0.032) continously with
+ the previous action.
+
+
+The score has a influence 2 time step(s) ago mostly postive the player did not collide with the enem
+y (4.338), because the score had a postive influence on it (0.614), negative the goal was not target
+ed (-1.253) and negative the enemy was targeted (-0.882) due to the action before.
+
+
+Mario is not targeting the goal 2 action(s) ago mostly because the enemy was targeted (-0.224), alto
+ugh the player did not collide with the enemy (-0.197), altough the player had already collected the
+ powerup (0.109) and altough the powerup did not exist (-0.105) the time step before.
+
+

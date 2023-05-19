@@ -1,0 +1,50 @@
+Anticipations:
+Targeting the goal now has a positive effect on targeting the goal (0.332), colliding with the goal 
+(0.055) and a negative effect on termination of the game (-0.198), targeting the goldcoin (-0.072), 
+the existence of the enemy (-0.031) and targeting the enemy (-0.029) in the next time step.
+
+
+Retrospectives:
+{'enemyExists': False, 'powerupExists': False}
+
+Mario is targeting the goal, constantly over action(s) 33 to 38, because the game is not terminated 
+(-0.463), because the player did not collide with the goal (-0.374) and because the goal was targete
+d (0.332) continously due to the previous action.
+
+
+The game is not terminated, constantly over time step(s) 33 to 37, mostly because the game is not te
+rminated (0.565), because the player did not collide with the goal (0.505), because the goal was tar
+geted (-0.198) and altough the player did not collide with the enemy (-0.362) continously with the p
+revious action.
+
+
+The enemy does not exist 5 time step(s) ago mostly because the enemy did not exist (0.326), because 
+the player had killed enemy (-0.226), because the enemy was not targeted (0.182) and altough the pla
+yer had already collected the powerup (0.109) the time step before.
+
+
+Mario is not targeting the enemy 5 action(s) ago because the enemy did not exist (0.249), because th
+e player had killed enemy (-0.163) and because the enemy was not targeted (0.112) through the action
+ before.
+
+
+The powerup was collected 5 time step(s) ago mostly altough the enemy did not exist (0.125), altough
+ the player had killed enemy (-0.087), altough the enemy was not targeted (0.059) and altough the pl
+ayer did not collide with the enemy (0.046) due to the action before.
+
+
+The enemy was killed 5 time step(s) ago mostly because the enemy did not exist (-0.222), because the
+ player had killed enemy (0.149) and because the enemy was not targeted (-0.124) through the action 
+before.
+
+
+Mario is not colliding with the enemy 5 action(s) ago mostly because the enemy was not targeted (0.1
+48), because the enemy did not exist (0.08), because the player had killed enemy (-0.06) and altough
+ the player did not collide with the enemy (-0.094) through the action before.
+
+
+Mario is not colliding with the goal 5 action(s) ago because the player had already collected the po
+werup (-0.015), mostly altough the goal was targeted (0.055), altough the player had killed enemy (0
+.017) and altough the game is not terminated (-0.011) the time step before.
+
+
