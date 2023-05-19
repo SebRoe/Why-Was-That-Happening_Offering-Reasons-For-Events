@@ -8,7 +8,9 @@ The R script "comparision_causal_hans_TSCE_classification" located in towards_ca
 
 
 
-The authors of the LEWIS method did not make their code publicly available, or we did not find it publicly. The authors were kind enough to provide us with a portion of their code. Our corresponding code is located under towards_lewis/. This involves two files. tsce_datahelper prepares the prediction model. main_multiprocessing.py generates all score predictions. The missing import can be found in the first lines here. There are also sections marked with comments to switch between Below Average and Above Average Mobility in order to generate traceable result files. The requirements.txt should contain all necessary packages. Here, too, we have compiled our results under results/LEWIS.
+The authors of the [LEWIS](https://dl.acm.org/doi/abs/10.1145/3448016.3458455) method did not make their code publicly available, or we did not find it publicly. The authors were kind enough to provide us with a portion of their code. Our corresponding code is located under towards_lewis/. This involves two files. tsce_datahelper prepares the prediction model. main_multiprocessing.py generates all score predictions. The missing import can be found in the first lines here. There are also sections marked with comments to switch between Below Average and Above Average Mobility in order to generate traceable result files. The requirements.txt should contain all necessary packages. Here, too, we have compiled our results under results/LEWIS.
+
+
 
 
 
