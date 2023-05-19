@@ -2,4 +2,12 @@
 
 
 
-Code will be available before the 24.05
+Dieses Repository ist in drei Teile unterteilt. 
+
+- Causal Hans 
+- CoinRunner 
+- Evaluation 
+
+
+
+Jedes Unterverzeichnis enthält seine eigene Readme und Erklärungen.

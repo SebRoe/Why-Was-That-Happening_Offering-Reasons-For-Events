@@ -143,11 +143,11 @@ if __name__ == "__main__":
                         model.run(lag=1)
 
                     with open(os.path.join(saving_path, f"{method}_summary_transition_1Step_rollout_{i}_model.pkl"), "wb") as f:
-                        pickle.dump(model, f)
-
+                        #pickle.dump(model, f)
+                        pass 
                     with open(os.path.join(saving_path, f"{method}_summary_transition_1Step_rollout_{i}.pkl"), "wb") as f:
                         pickle.dump(model.resultsDf, f)
-
+                         
 
                 dfs = []
                 for i in range(0, USE_ROLLOUT_UNTIL):
@@ -179,7 +179,8 @@ if __name__ == "__main__":
                     model.run(lag=1)
 
                 with open(os.path.join(saving_path, f"{method}_summary_transition_1Step_rollout_0_until_{USE_ROLLOUT_UNTIL}_model.pkl"), "wb") as f:
-                    pickle.dump(model, f)
+                    #pickle.dump(model, f)
+                    pass 
 
                 with open(os.path.join(saving_path, f"{method}_summary_transition_1Step_rollout_0_until_{USE_ROLLOUT_UNTIL}.pkl"), "wb") as f:
                     pickle.dump(model.resultsDf, f)

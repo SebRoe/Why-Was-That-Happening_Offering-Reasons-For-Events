@@ -1,0 +1,2494 @@
+{
+    "status": {
+        "killedEnemy": false,
+        "collectedCoin": false,
+        "playerWon": true,
+        "killedByEnemy": false,
+        "startTime": 1679939853.9756608,
+        "collectedPowerUp": false,
+        "totalFrames": 36,
+        "endTime": 1679939854.0006454,
+        "playTime": 0.02498459815979004,
+        "finalScore": 19
+    },
+    "settings": {
+        "FPS": 10,
+        "ENEMY_MOVING": false,
+        "POSITIONING": "All random",
+        "EXISTENCE_ENEMY": 0.75,
+        "EXISTENCE_GOLDCOIN": 0.5,
+        "EXISTENCE_POWERUP": 0.75,
+        "DISTANCE_METRIC": "Manhatten Distance",
+        "TARGETING_METRIC": "Cosine Similarity"
+    },
+    "data": {
+        "1": {
+            "collisions": {
+                "col_playerEnemy": false,
+                "col_enemyPlayer": false,
+                "col_playerGoldCoin": false,
+                "col_playerPowerUp": false,
+                "col_playerGoal": false
+            },
+            "pressedKeys": [],
+            "eventSubScore": false,
+            "frameID": 1,
+            "terminated": false,
+            "player": {
+                "pos": [
+                    300.0,
+                    720.0
+                ],
+                "collectedPowerUp": false,
+                "collectedGoldCoin": false,
+                "killedEnemy": false,
+                "collectingPowerUp": false,
+                "collectingGoldCoin": false,
+                "killingEnemy": false,
+                "pressedKeys": []
+            },
+            "enemy": {
+                "pos": [
+                    540.0,
+                    240.0
+                ],
+                "moving": false,
+                "direction": null
+            },
+            "goldcoin": {
+                "pos": [
+                    580.0,
+                    520.0
+                ]
+            },
+            "goal": {
+                "pos": [
+                    780,
+                    40
+                ]
+            },
+            "score": 20,
+            "distances": {
+                "enemy": 720.0,
+                "goldcoin": 480.0,
+                "powerup": 0,
+                "goal": 1160.0,
+                "enemy2goal": 440.0,
+                "enemy2coin": 320.0,
+                "powerup2goal": 0,
+                "powerup2enemy": 0,
+                "coin2goal": 680.0,
+                "coin2enemy": 320.0,
+                "coin2powerup": 0
+            },
+            "targeting": {
+                "enemy": false,
+                "goldcoin": false,
+                "powerup": false,
+                "goal": false
+            }
+        },
+        "2": {
+            "collisions": {
+                "col_playerEnemy": false,
+                "col_enemyPlayer": false,
+                "col_playerGoldCoin": false,
+                "col_playerPowerUp": false,
+                "col_playerGoal": false
+            },
+            "pressedKeys": [],
+            "eventSubScore": false,
+            "frameID": 2,
+            "terminated": false,
+            "player": {
+                "pos": [
+                    300.0,
+                    720.0
+                ],
+                "collectedPowerUp": false,
+                "collectedGoldCoin": false,
+                "killedEnemy": false,
+                "collectingPowerUp": false,
+                "collectingGoldCoin": false,
+                "killingEnemy": false,
+                "pressedKeys": []
+            },
+            "enemy": {
+                "pos": [
+                    540.0,
+                    240.0
+                ],
+                "moving": false,
+                "direction": null
+            },
+            "goldcoin": {
+                "pos": [
+                    580.0,
+                    520.0
+                ]
+            },
+            "goal": {
+                "pos": [
+                    780,
+                    40
+                ]
+            },
+            "score": 20,
+            "distances": {
+                "enemy": 720.0,
+                "goldcoin": 480.0,
+                "powerup": 0,
+                "goal": 1160.0,
+                "enemy2goal": 440.0,
+                "enemy2coin": 320.0,
+                "powerup2goal": 0,
+                "powerup2enemy": 0,
+                "coin2goal": 680.0,
+                "coin2enemy": 320.0,
+                "coin2powerup": 0
+            },
+            "targeting": {
+                "enemy": false,
+                "goldcoin": false,
+                "powerup": false,
+                "goal": false
+            }
+        },
+        "3": {
+            "collisions": {
+                "col_playerEnemy": false,
+                "col_enemyPlayer": false,
+                "col_playerGoldCoin": false,
+                "col_playerPowerUp": false,
+                "col_playerGoal": false
+            },
+            "pressedKeys": [
+                "D",
+                "W"
+            ],
+            "eventSubScore": false,
+            "frameID": 3,
+            "terminated": false,
+            "player": {
+                "pos": [
+                    300.0,
+                    720.0
+                ],
+                "collectedPowerUp": false,
+                "collectedGoldCoin": false,
+                "killedEnemy": false,
+                "collectingPowerUp": false,
+                "collectingGoldCoin": false,
+                "killingEnemy": false,
+                "pressedKeys": [
+                    "D",
+                    "W"
+                ]
+            },
+            "enemy": {
+                "pos": [
+                    540.0,
+                    240.0
+                ],
+                "moving": false,
+                "direction": null
+            },
+            "goldcoin": {
+                "pos": [
+                    580.0,
+                    520.0
+                ]
+            },
+            "goal": {
+                "pos": [
+                    780,
+                    40
+                ]
+            },
+            "score": 20,
+            "distances": {
+                "enemy": 720.0,
+                "goldcoin": 480.0,
+                "powerup": 0,
+                "goal": 1160.0,
+                "enemy2goal": 440.0,
+                "enemy2coin": 320.0,
+                "powerup2goal": 0,
+                "powerup2enemy": 0,
+                "coin2goal": 680.0,
+                "coin2enemy": 320.0,
+                "coin2powerup": 0
+            },
+            "targeting": {
+                "enemy": false,
+                "goldcoin": false,
+                "powerup": false,
+                "goal": false
+            }
+        },
+        "4": {
+            "collisions": {
+                "col_playerEnemy": false,
+                "col_enemyPlayer": false,
+                "col_playerGoldCoin": false,
+                "col_playerPowerUp": false,
+                "col_playerGoal": false
+            },
+            "pressedKeys": [],
+            "eventSubScore": true,
+            "frameID": 4,
+            "terminated": false,
+            "player": {
+                "pos": [
+                    340.0,
+                    680.0
+                ],
+                "collectedPowerUp": false,
+                "collectedGoldCoin": false,
+                "killedEnemy": false,
+                "collectingPowerUp": false,
+                "collectingGoldCoin": false,
+                "killingEnemy": false,
+                "pressedKeys": []
+            },
+            "enemy": {
+                "pos": [
+                    540.0,
+                    240.0
+                ],
+                "moving": false,
+                "direction": null
+            },
+            "goldcoin": {
+                "pos": [
+                    580.0,
+                    520.0
+                ]
+            },
+            "goal": {
+                "pos": [
+                    780,
+                    40
+                ]
+            },
+            "score": 19,
+            "distances": {
+                "enemy": 640.0,
+                "goldcoin": 400.0,
+                "powerup": 0,
+                "goal": 1080.0,
+                "enemy2goal": 440.0,
+                "enemy2coin": 320.0,
+                "powerup2goal": 0,
+                "powerup2enemy": 0,
+                "coin2goal": 680.0,
+                "coin2enemy": 320.0,
+                "coin2powerup": 0
+            },
+            "targeting": {
+                "enemy": false,
+                "goldcoin": false,
+                "powerup": false,
+                "goal": false
+            }
+        },
+        "5": {
+            "collisions": {
+                "col_playerEnemy": false,
+                "col_enemyPlayer": false,
+                "col_playerGoldCoin": false,
+                "col_playerPowerUp": false,
+                "col_playerGoal": false
+            },
+            "pressedKeys": [
+                "D",
+                "W"
+            ],
+            "eventSubScore": false,
+            "frameID": 5,
+            "terminated": false,
+            "player": {
+                "pos": [
+                    340.0,
+                    680.0
+                ],
+                "collectedPowerUp": false,
+                "collectedGoldCoin": false,
+                "killedEnemy": false,
+                "collectingPowerUp": false,
+                "collectingGoldCoin": false,
+                "killingEnemy": false,
+                "pressedKeys": [
+                    "D",
+                    "W"
+                ]
+            },
+            "enemy": {
+                "pos": [
+                    540.0,
+                    240.0
+                ],
+                "moving": false,
+                "direction": null
+            },
+            "goldcoin": {
+                "pos": [
+                    580.0,
+                    520.0
+                ]
+            },
+            "goal": {
+                "pos": [
+                    780,
+                    40
+                ]
+            },
+            "score": 19,
+            "distances": {
+                "enemy": 640.0,
+                "goldcoin": 400.0,
+                "powerup": 0,
+                "goal": 1080.0,
+                "enemy2goal": 440.0,
+                "enemy2coin": 320.0,
+                "powerup2goal": 0,
+                "powerup2enemy": 0,
+                "coin2goal": 680.0,
+                "coin2enemy": 320.0,
+                "coin2powerup": 0
+            },
+            "targeting": {
+                "enemy": false,
+                "goldcoin": false,
+                "powerup": false,
+                "goal": false
+            }
+        },
+        "6": {
+            "collisions": {
+                "col_playerEnemy": false,
+                "col_enemyPlayer": false,
+                "col_playerGoldCoin": false,
+                "col_playerPowerUp": false,
+                "col_playerGoal": false
+            },
+            "pressedKeys": [],
+            "eventSubScore": false,
+            "frameID": 6,
+            "terminated": false,
+            "player": {
+                "pos": [
+                    380.0,
+                    640.0
+                ],
+                "collectedPowerUp": false,
+                "collectedGoldCoin": false,
+                "killedEnemy": false,
+                "collectingPowerUp": false,
+                "collectingGoldCoin": false,
+                "killingEnemy": false,
+                "pressedKeys": []
+            },
+            "enemy": {
+                "pos": [
+                    540.0,
+                    240.0
+                ],
+                "moving": false,
+                "direction": null
+            },
+            "goldcoin": {
+                "pos": [
+                    580.0,
+                    520.0
+                ]
+            },
+            "goal": {
+                "pos": [
+                    780,
+                    40
+                ]
+            },
+            "score": 19,
+            "distances": {
+                "enemy": 560.0,
+                "goldcoin": 320.0,
+                "powerup": 0,
+                "goal": 1000.0,
+                "enemy2goal": 440.0,
+                "enemy2coin": 320.0,
+                "powerup2goal": 0,
+                "powerup2enemy": 0,
+                "coin2goal": 680.0,
+                "coin2enemy": 320.0,
+                "coin2powerup": 0
+            },
+            "targeting": {
+                "enemy": false,
+                "goldcoin": false,
+                "powerup": false,
+                "goal": true
+            }
+        },
+        "7": {
+            "collisions": {
+                "col_playerEnemy": false,
+                "col_enemyPlayer": false,
+                "col_playerGoldCoin": false,
+                "col_playerPowerUp": false,
+                "col_playerGoal": false
+            },
+            "pressedKeys": [
+                "D",
+                "W"
+            ],
+            "eventSubScore": false,
+            "frameID": 7,
+            "terminated": false,
+            "player": {
+                "pos": [
+                    380.0,
+                    640.0
+                ],
+                "collectedPowerUp": false,
+                "collectedGoldCoin": false,
+                "killedEnemy": false,
+                "collectingPowerUp": false,
+                "collectingGoldCoin": false,
+                "killingEnemy": false,
+                "pressedKeys": [
+                    "D",
+                    "W"
+                ]
+            },
+            "enemy": {
+                "pos": [
+                    540.0,
+                    240.0
+                ],
+                "moving": false,
+                "direction": null
+            },
+            "goldcoin": {
+                "pos": [
+                    580.0,
+                    520.0
+                ]
+            },
+            "goal": {
+                "pos": [
+                    780,
+                    40
+                ]
+            },
+            "score": 19,
+            "distances": {
+                "enemy": 560.0,
+                "goldcoin": 320.0,
+                "powerup": 0,
+                "goal": 1000.0,
+                "enemy2goal": 440.0,
+                "enemy2coin": 320.0,
+                "powerup2goal": 0,
+                "powerup2enemy": 0,
+                "coin2goal": 680.0,
+                "coin2enemy": 320.0,
+                "coin2powerup": 0
+            },
+            "targeting": {
+                "enemy": false,
+                "goldcoin": false,
+                "powerup": false,
+                "goal": true
+            }
+        },
+        "8": {
+            "collisions": {
+                "col_playerEnemy": false,
+                "col_enemyPlayer": false,
+                "col_playerGoldCoin": false,
+                "col_playerPowerUp": false,
+                "col_playerGoal": false
+            },
+            "pressedKeys": [],
+            "eventSubScore": false,
+            "frameID": 8,
+            "terminated": false,
+            "player": {
+                "pos": [
+                    420.0,
+                    600.0
+                ],
+                "collectedPowerUp": false,
+                "collectedGoldCoin": false,
+                "killedEnemy": false,
+                "collectingPowerUp": false,
+                "collectingGoldCoin": false,
+                "killingEnemy": false,
+                "pressedKeys": []
+            },
+            "enemy": {
+                "pos": [
+                    540.0,
+                    240.0
+                ],
+                "moving": false,
+                "direction": null
+            },
+            "goldcoin": {
+                "pos": [
+                    580.0,
+                    520.0
+                ]
+            },
+            "goal": {
+                "pos": [
+                    780,
+                    40
+                ]
+            },
+            "score": 19,
+            "distances": {
+                "enemy": 480.0,
+                "goldcoin": 240.0,
+                "powerup": 0,
+                "goal": 920.0,
+                "enemy2goal": 440.0,
+                "enemy2coin": 320.0,
+                "powerup2goal": 0,
+                "powerup2enemy": 0,
+                "coin2goal": 680.0,
+                "coin2enemy": 320.0,
+                "coin2powerup": 0
+            },
+            "targeting": {
+                "enemy": false,
+                "goldcoin": false,
+                "powerup": false,
+                "goal": true
+            }
+        },
+        "9": {
+            "collisions": {
+                "col_playerEnemy": false,
+                "col_enemyPlayer": false,
+                "col_playerGoldCoin": false,
+                "col_playerPowerUp": false,
+                "col_playerGoal": false
+            },
+            "pressedKeys": [
+                "D",
+                "W"
+            ],
+            "eventSubScore": false,
+            "frameID": 9,
+            "terminated": false,
+            "player": {
+                "pos": [
+                    420.0,
+                    600.0
+                ],
+                "collectedPowerUp": false,
+                "collectedGoldCoin": false,
+                "killedEnemy": false,
+                "collectingPowerUp": false,
+                "collectingGoldCoin": false,
+                "killingEnemy": false,
+                "pressedKeys": [
+                    "D",
+                    "W"
+                ]
+            },
+            "enemy": {
+                "pos": [
+                    540.0,
+                    240.0
+                ],
+                "moving": false,
+                "direction": null
+            },
+            "goldcoin": {
+                "pos": [
+                    580.0,
+                    520.0
+                ]
+            },
+            "goal": {
+                "pos": [
+                    780,
+                    40
+                ]
+            },
+            "score": 19,
+            "distances": {
+                "enemy": 480.0,
+                "goldcoin": 240.0,
+                "powerup": 0,
+                "goal": 920.0,
+                "enemy2goal": 440.0,
+                "enemy2coin": 320.0,
+                "powerup2goal": 0,
+                "powerup2enemy": 0,
+                "coin2goal": 680.0,
+                "coin2enemy": 320.0,
+                "coin2powerup": 0
+            },
+            "targeting": {
+                "enemy": false,
+                "goldcoin": false,
+                "powerup": false,
+                "goal": true
+            }
+        },
+        "10": {
+            "collisions": {
+                "col_playerEnemy": false,
+                "col_enemyPlayer": false,
+                "col_playerGoldCoin": false,
+                "col_playerPowerUp": false,
+                "col_playerGoal": false
+            },
+            "pressedKeys": [],
+            "eventSubScore": false,
+            "frameID": 10,
+            "terminated": false,
+            "player": {
+                "pos": [
+                    460.0,
+                    560.0
+                ],
+                "collectedPowerUp": false,
+                "collectedGoldCoin": false,
+                "killedEnemy": false,
+                "collectingPowerUp": false,
+                "collectingGoldCoin": false,
+                "killingEnemy": false,
+                "pressedKeys": []
+            },
+            "enemy": {
+                "pos": [
+                    540.0,
+                    240.0
+                ],
+                "moving": false,
+                "direction": null
+            },
+            "goldcoin": {
+                "pos": [
+                    580.0,
+                    520.0
+                ]
+            },
+            "goal": {
+                "pos": [
+                    780,
+                    40
+                ]
+            },
+            "score": 19,
+            "distances": {
+                "enemy": 400.0,
+                "goldcoin": 160.0,
+                "powerup": 0,
+                "goal": 840.0,
+                "enemy2goal": 440.0,
+                "enemy2coin": 320.0,
+                "powerup2goal": 0,
+                "powerup2enemy": 0,
+                "coin2goal": 680.0,
+                "coin2enemy": 320.0,
+                "coin2powerup": 0
+            },
+            "targeting": {
+                "enemy": false,
+                "goldcoin": false,
+                "powerup": false,
+                "goal": true
+            }
+        },
+        "11": {
+            "collisions": {
+                "col_playerEnemy": false,
+                "col_enemyPlayer": false,
+                "col_playerGoldCoin": false,
+                "col_playerPowerUp": false,
+                "col_playerGoal": false
+            },
+            "pressedKeys": [
+                "D",
+                "W"
+            ],
+            "eventSubScore": false,
+            "frameID": 11,
+            "terminated": false,
+            "player": {
+                "pos": [
+                    460.0,
+                    560.0
+                ],
+                "collectedPowerUp": false,
+                "collectedGoldCoin": false,
+                "killedEnemy": false,
+                "collectingPowerUp": false,
+                "collectingGoldCoin": false,
+                "killingEnemy": false,
+                "pressedKeys": [
+                    "D",
+                    "W"
+                ]
+            },
+            "enemy": {
+                "pos": [
+                    540.0,
+                    240.0
+                ],
+                "moving": false,
+                "direction": null
+            },
+            "goldcoin": {
+                "pos": [
+                    580.0,
+                    520.0
+                ]
+            },
+            "goal": {
+                "pos": [
+                    780,
+                    40
+                ]
+            },
+            "score": 19,
+            "distances": {
+                "enemy": 400.0,
+                "goldcoin": 160.0,
+                "powerup": 0,
+                "goal": 840.0,
+                "enemy2goal": 440.0,
+                "enemy2coin": 320.0,
+                "powerup2goal": 0,
+                "powerup2enemy": 0,
+                "coin2goal": 680.0,
+                "coin2enemy": 320.0,
+                "coin2powerup": 0
+            },
+            "targeting": {
+                "enemy": false,
+                "goldcoin": false,
+                "powerup": false,
+                "goal": true
+            }
+        },
+        "12": {
+            "collisions": {
+                "col_playerEnemy": false,
+                "col_enemyPlayer": false,
+                "col_playerGoldCoin": false,
+                "col_playerPowerUp": false,
+                "col_playerGoal": false
+            },
+            "pressedKeys": [],
+            "eventSubScore": false,
+            "frameID": 12,
+            "terminated": false,
+            "player": {
+                "pos": [
+                    500.0,
+                    520.0
+                ],
+                "collectedPowerUp": false,
+                "collectedGoldCoin": false,
+                "killedEnemy": false,
+                "collectingPowerUp": false,
+                "collectingGoldCoin": false,
+                "killingEnemy": false,
+                "pressedKeys": []
+            },
+            "enemy": {
+                "pos": [
+                    540.0,
+                    240.0
+                ],
+                "moving": false,
+                "direction": null
+            },
+            "goldcoin": {
+                "pos": [
+                    580.0,
+                    520.0
+                ]
+            },
+            "goal": {
+                "pos": [
+                    780,
+                    40
+                ]
+            },
+            "score": 19,
+            "distances": {
+                "enemy": 320.0,
+                "goldcoin": 80.0,
+                "powerup": 0,
+                "goal": 760.0,
+                "enemy2goal": 440.0,
+                "enemy2coin": 320.0,
+                "powerup2goal": 0,
+                "powerup2enemy": 0,
+                "coin2goal": 680.0,
+                "coin2enemy": 320.0,
+                "coin2powerup": 0
+            },
+            "targeting": {
+                "enemy": false,
+                "goldcoin": false,
+                "powerup": false,
+                "goal": true
+            }
+        },
+        "13": {
+            "collisions": {
+                "col_playerEnemy": false,
+                "col_enemyPlayer": false,
+                "col_playerGoldCoin": false,
+                "col_playerPowerUp": false,
+                "col_playerGoal": false
+            },
+            "pressedKeys": [
+                "D",
+                "W"
+            ],
+            "eventSubScore": false,
+            "frameID": 13,
+            "terminated": false,
+            "player": {
+                "pos": [
+                    500.0,
+                    520.0
+                ],
+                "collectedPowerUp": false,
+                "collectedGoldCoin": false,
+                "killedEnemy": false,
+                "collectingPowerUp": false,
+                "collectingGoldCoin": false,
+                "killingEnemy": false,
+                "pressedKeys": [
+                    "D",
+                    "W"
+                ]
+            },
+            "enemy": {
+                "pos": [
+                    540.0,
+                    240.0
+                ],
+                "moving": false,
+                "direction": null
+            },
+            "goldcoin": {
+                "pos": [
+                    580.0,
+                    520.0
+                ]
+            },
+            "goal": {
+                "pos": [
+                    780,
+                    40
+                ]
+            },
+            "score": 19,
+            "distances": {
+                "enemy": 320.0,
+                "goldcoin": 80.0,
+                "powerup": 0,
+                "goal": 760.0,
+                "enemy2goal": 440.0,
+                "enemy2coin": 320.0,
+                "powerup2goal": 0,
+                "powerup2enemy": 0,
+                "coin2goal": 680.0,
+                "coin2enemy": 320.0,
+                "coin2powerup": 0
+            },
+            "targeting": {
+                "enemy": false,
+                "goldcoin": false,
+                "powerup": false,
+                "goal": true
+            }
+        },
+        "14": {
+            "collisions": {
+                "col_playerEnemy": false,
+                "col_enemyPlayer": false,
+                "col_playerGoldCoin": false,
+                "col_playerPowerUp": false,
+                "col_playerGoal": false
+            },
+            "pressedKeys": [],
+            "eventSubScore": false,
+            "frameID": 14,
+            "terminated": false,
+            "player": {
+                "pos": [
+                    540.0,
+                    480.0
+                ],
+                "collectedPowerUp": false,
+                "collectedGoldCoin": false,
+                "killedEnemy": false,
+                "collectingPowerUp": false,
+                "collectingGoldCoin": false,
+                "killingEnemy": false,
+                "pressedKeys": []
+            },
+            "enemy": {
+                "pos": [
+                    540.0,
+                    240.0
+                ],
+                "moving": false,
+                "direction": null
+            },
+            "goldcoin": {
+                "pos": [
+                    580.0,
+                    520.0
+                ]
+            },
+            "goal": {
+                "pos": [
+                    780,
+                    40
+                ]
+            },
+            "score": 19,
+            "distances": {
+                "enemy": 240.0,
+                "goldcoin": 80.0,
+                "powerup": 0,
+                "goal": 680.0,
+                "enemy2goal": 440.0,
+                "enemy2coin": 320.0,
+                "powerup2goal": 0,
+                "powerup2enemy": 0,
+                "coin2goal": 680.0,
+                "coin2enemy": 320.0,
+                "coin2powerup": 0
+            },
+            "targeting": {
+                "enemy": false,
+                "goldcoin": false,
+                "powerup": false,
+                "goal": true
+            }
+        },
+        "15": {
+            "collisions": {
+                "col_playerEnemy": false,
+                "col_enemyPlayer": false,
+                "col_playerGoldCoin": false,
+                "col_playerPowerUp": false,
+                "col_playerGoal": false
+            },
+            "pressedKeys": [
+                "D",
+                "W"
+            ],
+            "eventSubScore": false,
+            "frameID": 15,
+            "terminated": false,
+            "player": {
+                "pos": [
+                    540.0,
+                    480.0
+                ],
+                "collectedPowerUp": false,
+                "collectedGoldCoin": false,
+                "killedEnemy": false,
+                "collectingPowerUp": false,
+                "collectingGoldCoin": false,
+                "killingEnemy": false,
+                "pressedKeys": [
+                    "D",
+                    "W"
+                ]
+            },
+            "enemy": {
+                "pos": [
+                    540.0,
+                    240.0
+                ],
+                "moving": false,
+                "direction": null
+            },
+            "goldcoin": {
+                "pos": [
+                    580.0,
+                    520.0
+                ]
+            },
+            "goal": {
+                "pos": [
+                    780,
+                    40
+                ]
+            },
+            "score": 19,
+            "distances": {
+                "enemy": 240.0,
+                "goldcoin": 80.0,
+                "powerup": 0,
+                "goal": 680.0,
+                "enemy2goal": 440.0,
+                "enemy2coin": 320.0,
+                "powerup2goal": 0,
+                "powerup2enemy": 0,
+                "coin2goal": 680.0,
+                "coin2enemy": 320.0,
+                "coin2powerup": 0
+            },
+            "targeting": {
+                "enemy": false,
+                "goldcoin": false,
+                "powerup": false,
+                "goal": true
+            }
+        },
+        "16": {
+            "collisions": {
+                "col_playerEnemy": false,
+                "col_enemyPlayer": false,
+                "col_playerGoldCoin": false,
+                "col_playerPowerUp": false,
+                "col_playerGoal": false
+            },
+            "pressedKeys": [],
+            "eventSubScore": false,
+            "frameID": 16,
+            "terminated": false,
+            "player": {
+                "pos": [
+                    580.0,
+                    440.0
+                ],
+                "collectedPowerUp": false,
+                "collectedGoldCoin": false,
+                "killedEnemy": false,
+                "collectingPowerUp": false,
+                "collectingGoldCoin": false,
+                "killingEnemy": false,
+                "pressedKeys": []
+            },
+            "enemy": {
+                "pos": [
+                    540.0,
+                    240.0
+                ],
+                "moving": false,
+                "direction": null
+            },
+            "goldcoin": {
+                "pos": [
+                    580.0,
+                    520.0
+                ]
+            },
+            "goal": {
+                "pos": [
+                    780,
+                    40
+                ]
+            },
+            "score": 19,
+            "distances": {
+                "enemy": 240.0,
+                "goldcoin": 80.0,
+                "powerup": 0,
+                "goal": 600.0,
+                "enemy2goal": 440.0,
+                "enemy2coin": 320.0,
+                "powerup2goal": 0,
+                "powerup2enemy": 0,
+                "coin2goal": 680.0,
+                "coin2enemy": 320.0,
+                "coin2powerup": 0
+            },
+            "targeting": {
+                "enemy": false,
+                "goldcoin": false,
+                "powerup": false,
+                "goal": true
+            }
+        },
+        "17": {
+            "collisions": {
+                "col_playerEnemy": false,
+                "col_enemyPlayer": false,
+                "col_playerGoldCoin": false,
+                "col_playerPowerUp": false,
+                "col_playerGoal": false
+            },
+            "pressedKeys": [
+                "D",
+                "W"
+            ],
+            "eventSubScore": false,
+            "frameID": 17,
+            "terminated": false,
+            "player": {
+                "pos": [
+                    580.0,
+                    440.0
+                ],
+                "collectedPowerUp": false,
+                "collectedGoldCoin": false,
+                "killedEnemy": false,
+                "collectingPowerUp": false,
+                "collectingGoldCoin": false,
+                "killingEnemy": false,
+                "pressedKeys": [
+                    "D",
+                    "W"
+                ]
+            },
+            "enemy": {
+                "pos": [
+                    540.0,
+                    240.0
+                ],
+                "moving": false,
+                "direction": null
+            },
+            "goldcoin": {
+                "pos": [
+                    580.0,
+                    520.0
+                ]
+            },
+            "goal": {
+                "pos": [
+                    780,
+                    40
+                ]
+            },
+            "score": 19,
+            "distances": {
+                "enemy": 240.0,
+                "goldcoin": 80.0,
+                "powerup": 0,
+                "goal": 600.0,
+                "enemy2goal": 440.0,
+                "enemy2coin": 320.0,
+                "powerup2goal": 0,
+                "powerup2enemy": 0,
+                "coin2goal": 680.0,
+                "coin2enemy": 320.0,
+                "coin2powerup": 0
+            },
+            "targeting": {
+                "enemy": false,
+                "goldcoin": false,
+                "powerup": false,
+                "goal": true
+            }
+        },
+        "18": {
+            "collisions": {
+                "col_playerEnemy": false,
+                "col_enemyPlayer": false,
+                "col_playerGoldCoin": false,
+                "col_playerPowerUp": false,
+                "col_playerGoal": false
+            },
+            "pressedKeys": [],
+            "eventSubScore": false,
+            "frameID": 18,
+            "terminated": false,
+            "player": {
+                "pos": [
+                    620.0,
+                    400.0
+                ],
+                "collectedPowerUp": false,
+                "collectedGoldCoin": false,
+                "killedEnemy": false,
+                "collectingPowerUp": false,
+                "collectingGoldCoin": false,
+                "killingEnemy": false,
+                "pressedKeys": []
+            },
+            "enemy": {
+                "pos": [
+                    540.0,
+                    240.0
+                ],
+                "moving": false,
+                "direction": null
+            },
+            "goldcoin": {
+                "pos": [
+                    580.0,
+                    520.0
+                ]
+            },
+            "goal": {
+                "pos": [
+                    780,
+                    40
+                ]
+            },
+            "score": 19,
+            "distances": {
+                "enemy": 240.0,
+                "goldcoin": 160.0,
+                "powerup": 0,
+                "goal": 520.0,
+                "enemy2goal": 440.0,
+                "enemy2coin": 320.0,
+                "powerup2goal": 0,
+                "powerup2enemy": 0,
+                "coin2goal": 680.0,
+                "coin2enemy": 320.0,
+                "coin2powerup": 0
+            },
+            "targeting": {
+                "enemy": false,
+                "goldcoin": false,
+                "powerup": false,
+                "goal": true
+            }
+        },
+        "19": {
+            "collisions": {
+                "col_playerEnemy": false,
+                "col_enemyPlayer": false,
+                "col_playerGoldCoin": false,
+                "col_playerPowerUp": false,
+                "col_playerGoal": false
+            },
+            "pressedKeys": [
+                "D",
+                "W"
+            ],
+            "eventSubScore": false,
+            "frameID": 19,
+            "terminated": false,
+            "player": {
+                "pos": [
+                    620.0,
+                    400.0
+                ],
+                "collectedPowerUp": false,
+                "collectedGoldCoin": false,
+                "killedEnemy": false,
+                "collectingPowerUp": false,
+                "collectingGoldCoin": false,
+                "killingEnemy": false,
+                "pressedKeys": [
+                    "D",
+                    "W"
+                ]
+            },
+            "enemy": {
+                "pos": [
+                    540.0,
+                    240.0
+                ],
+                "moving": false,
+                "direction": null
+            },
+            "goldcoin": {
+                "pos": [
+                    580.0,
+                    520.0
+                ]
+            },
+            "goal": {
+                "pos": [
+                    780,
+                    40
+                ]
+            },
+            "score": 19,
+            "distances": {
+                "enemy": 240.0,
+                "goldcoin": 160.0,
+                "powerup": 0,
+                "goal": 520.0,
+                "enemy2goal": 440.0,
+                "enemy2coin": 320.0,
+                "powerup2goal": 0,
+                "powerup2enemy": 0,
+                "coin2goal": 680.0,
+                "coin2enemy": 320.0,
+                "coin2powerup": 0
+            },
+            "targeting": {
+                "enemy": false,
+                "goldcoin": false,
+                "powerup": false,
+                "goal": true
+            }
+        },
+        "20": {
+            "collisions": {
+                "col_playerEnemy": false,
+                "col_enemyPlayer": false,
+                "col_playerGoldCoin": false,
+                "col_playerPowerUp": false,
+                "col_playerGoal": false
+            },
+            "pressedKeys": [],
+            "eventSubScore": false,
+            "frameID": 20,
+            "terminated": false,
+            "player": {
+                "pos": [
+                    660.0,
+                    360.0
+                ],
+                "collectedPowerUp": false,
+                "collectedGoldCoin": false,
+                "killedEnemy": false,
+                "collectingPowerUp": false,
+                "collectingGoldCoin": false,
+                "killingEnemy": false,
+                "pressedKeys": []
+            },
+            "enemy": {
+                "pos": [
+                    540.0,
+                    240.0
+                ],
+                "moving": false,
+                "direction": null
+            },
+            "goldcoin": {
+                "pos": [
+                    580.0,
+                    520.0
+                ]
+            },
+            "goal": {
+                "pos": [
+                    780,
+                    40
+                ]
+            },
+            "score": 19,
+            "distances": {
+                "enemy": 240.0,
+                "goldcoin": 240.0,
+                "powerup": 0,
+                "goal": 440.0,
+                "enemy2goal": 440.0,
+                "enemy2coin": 320.0,
+                "powerup2goal": 0,
+                "powerup2enemy": 0,
+                "coin2goal": 680.0,
+                "coin2enemy": 320.0,
+                "coin2powerup": 0
+            },
+            "targeting": {
+                "enemy": false,
+                "goldcoin": false,
+                "powerup": false,
+                "goal": true
+            }
+        },
+        "21": {
+            "collisions": {
+                "col_playerEnemy": false,
+                "col_enemyPlayer": false,
+                "col_playerGoldCoin": false,
+                "col_playerPowerUp": false,
+                "col_playerGoal": false
+            },
+            "pressedKeys": [
+                "D",
+                "W"
+            ],
+            "eventSubScore": false,
+            "frameID": 21,
+            "terminated": false,
+            "player": {
+                "pos": [
+                    660.0,
+                    360.0
+                ],
+                "collectedPowerUp": false,
+                "collectedGoldCoin": false,
+                "killedEnemy": false,
+                "collectingPowerUp": false,
+                "collectingGoldCoin": false,
+                "killingEnemy": false,
+                "pressedKeys": [
+                    "D",
+                    "W"
+                ]
+            },
+            "enemy": {
+                "pos": [
+                    540.0,
+                    240.0
+                ],
+                "moving": false,
+                "direction": null
+            },
+            "goldcoin": {
+                "pos": [
+                    580.0,
+                    520.0
+                ]
+            },
+            "goal": {
+                "pos": [
+                    780,
+                    40
+                ]
+            },
+            "score": 19,
+            "distances": {
+                "enemy": 240.0,
+                "goldcoin": 240.0,
+                "powerup": 0,
+                "goal": 440.0,
+                "enemy2goal": 440.0,
+                "enemy2coin": 320.0,
+                "powerup2goal": 0,
+                "powerup2enemy": 0,
+                "coin2goal": 680.0,
+                "coin2enemy": 320.0,
+                "coin2powerup": 0
+            },
+            "targeting": {
+                "enemy": false,
+                "goldcoin": false,
+                "powerup": false,
+                "goal": true
+            }
+        },
+        "22": {
+            "collisions": {
+                "col_playerEnemy": false,
+                "col_enemyPlayer": false,
+                "col_playerGoldCoin": false,
+                "col_playerPowerUp": false,
+                "col_playerGoal": false
+            },
+            "pressedKeys": [],
+            "eventSubScore": false,
+            "frameID": 22,
+            "terminated": false,
+            "player": {
+                "pos": [
+                    700.0,
+                    320.0
+                ],
+                "collectedPowerUp": false,
+                "collectedGoldCoin": false,
+                "killedEnemy": false,
+                "collectingPowerUp": false,
+                "collectingGoldCoin": false,
+                "killingEnemy": false,
+                "pressedKeys": []
+            },
+            "enemy": {
+                "pos": [
+                    540.0,
+                    240.0
+                ],
+                "moving": false,
+                "direction": null
+            },
+            "goldcoin": {
+                "pos": [
+                    580.0,
+                    520.0
+                ]
+            },
+            "goal": {
+                "pos": [
+                    780,
+                    40
+                ]
+            },
+            "score": 19,
+            "distances": {
+                "enemy": 240.0,
+                "goldcoin": 320.0,
+                "powerup": 0,
+                "goal": 360.0,
+                "enemy2goal": 440.0,
+                "enemy2coin": 320.0,
+                "powerup2goal": 0,
+                "powerup2enemy": 0,
+                "coin2goal": 680.0,
+                "coin2enemy": 320.0,
+                "coin2powerup": 0
+            },
+            "targeting": {
+                "enemy": false,
+                "goldcoin": false,
+                "powerup": false,
+                "goal": true
+            }
+        },
+        "23": {
+            "collisions": {
+                "col_playerEnemy": false,
+                "col_enemyPlayer": false,
+                "col_playerGoldCoin": false,
+                "col_playerPowerUp": false,
+                "col_playerGoal": false
+            },
+            "pressedKeys": [
+                "D",
+                "W"
+            ],
+            "eventSubScore": false,
+            "frameID": 23,
+            "terminated": false,
+            "player": {
+                "pos": [
+                    700.0,
+                    320.0
+                ],
+                "collectedPowerUp": false,
+                "collectedGoldCoin": false,
+                "killedEnemy": false,
+                "collectingPowerUp": false,
+                "collectingGoldCoin": false,
+                "killingEnemy": false,
+                "pressedKeys": [
+                    "D",
+                    "W"
+                ]
+            },
+            "enemy": {
+                "pos": [
+                    540.0,
+                    240.0
+                ],
+                "moving": false,
+                "direction": null
+            },
+            "goldcoin": {
+                "pos": [
+                    580.0,
+                    520.0
+                ]
+            },
+            "goal": {
+                "pos": [
+                    780,
+                    40
+                ]
+            },
+            "score": 19,
+            "distances": {
+                "enemy": 240.0,
+                "goldcoin": 320.0,
+                "powerup": 0,
+                "goal": 360.0,
+                "enemy2goal": 440.0,
+                "enemy2coin": 320.0,
+                "powerup2goal": 0,
+                "powerup2enemy": 0,
+                "coin2goal": 680.0,
+                "coin2enemy": 320.0,
+                "coin2powerup": 0
+            },
+            "targeting": {
+                "enemy": false,
+                "goldcoin": false,
+                "powerup": false,
+                "goal": true
+            }
+        },
+        "24": {
+            "collisions": {
+                "col_playerEnemy": false,
+                "col_enemyPlayer": false,
+                "col_playerGoldCoin": false,
+                "col_playerPowerUp": false,
+                "col_playerGoal": false
+            },
+            "pressedKeys": [],
+            "eventSubScore": false,
+            "frameID": 24,
+            "terminated": false,
+            "player": {
+                "pos": [
+                    740.0,
+                    280.0
+                ],
+                "collectedPowerUp": false,
+                "collectedGoldCoin": false,
+                "killedEnemy": false,
+                "collectingPowerUp": false,
+                "collectingGoldCoin": false,
+                "killingEnemy": false,
+                "pressedKeys": []
+            },
+            "enemy": {
+                "pos": [
+                    540.0,
+                    240.0
+                ],
+                "moving": false,
+                "direction": null
+            },
+            "goldcoin": {
+                "pos": [
+                    580.0,
+                    520.0
+                ]
+            },
+            "goal": {
+                "pos": [
+                    780,
+                    40
+                ]
+            },
+            "score": 19,
+            "distances": {
+                "enemy": 240.0,
+                "goldcoin": 400.0,
+                "powerup": 0,
+                "goal": 280.0,
+                "enemy2goal": 440.0,
+                "enemy2coin": 320.0,
+                "powerup2goal": 0,
+                "powerup2enemy": 0,
+                "coin2goal": 680.0,
+                "coin2enemy": 320.0,
+                "coin2powerup": 0
+            },
+            "targeting": {
+                "enemy": false,
+                "goldcoin": false,
+                "powerup": false,
+                "goal": true
+            }
+        },
+        "25": {
+            "collisions": {
+                "col_playerEnemy": false,
+                "col_enemyPlayer": false,
+                "col_playerGoldCoin": false,
+                "col_playerPowerUp": false,
+                "col_playerGoal": false
+            },
+            "pressedKeys": [
+                "D",
+                "W"
+            ],
+            "eventSubScore": false,
+            "frameID": 25,
+            "terminated": false,
+            "player": {
+                "pos": [
+                    740.0,
+                    280.0
+                ],
+                "collectedPowerUp": false,
+                "collectedGoldCoin": false,
+                "killedEnemy": false,
+                "collectingPowerUp": false,
+                "collectingGoldCoin": false,
+                "killingEnemy": false,
+                "pressedKeys": [
+                    "D",
+                    "W"
+                ]
+            },
+            "enemy": {
+                "pos": [
+                    540.0,
+                    240.0
+                ],
+                "moving": false,
+                "direction": null
+            },
+            "goldcoin": {
+                "pos": [
+                    580.0,
+                    520.0
+                ]
+            },
+            "goal": {
+                "pos": [
+                    780,
+                    40
+                ]
+            },
+            "score": 19,
+            "distances": {
+                "enemy": 240.0,
+                "goldcoin": 400.0,
+                "powerup": 0,
+                "goal": 280.0,
+                "enemy2goal": 440.0,
+                "enemy2coin": 320.0,
+                "powerup2goal": 0,
+                "powerup2enemy": 0,
+                "coin2goal": 680.0,
+                "coin2enemy": 320.0,
+                "coin2powerup": 0
+            },
+            "targeting": {
+                "enemy": false,
+                "goldcoin": false,
+                "powerup": false,
+                "goal": true
+            }
+        },
+        "26": {
+            "collisions": {
+                "col_playerEnemy": false,
+                "col_enemyPlayer": false,
+                "col_playerGoldCoin": false,
+                "col_playerPowerUp": false,
+                "col_playerGoal": false
+            },
+            "pressedKeys": [],
+            "eventSubScore": false,
+            "frameID": 26,
+            "terminated": false,
+            "player": {
+                "pos": [
+                    780.0,
+                    240.0
+                ],
+                "collectedPowerUp": false,
+                "collectedGoldCoin": false,
+                "killedEnemy": false,
+                "collectingPowerUp": false,
+                "collectingGoldCoin": false,
+                "killingEnemy": false,
+                "pressedKeys": []
+            },
+            "enemy": {
+                "pos": [
+                    540.0,
+                    240.0
+                ],
+                "moving": false,
+                "direction": null
+            },
+            "goldcoin": {
+                "pos": [
+                    580.0,
+                    520.0
+                ]
+            },
+            "goal": {
+                "pos": [
+                    780,
+                    40
+                ]
+            },
+            "score": 19,
+            "distances": {
+                "enemy": 240.0,
+                "goldcoin": 480.0,
+                "powerup": 0,
+                "goal": 200.0,
+                "enemy2goal": 440.0,
+                "enemy2coin": 320.0,
+                "powerup2goal": 0,
+                "powerup2enemy": 0,
+                "coin2goal": 680.0,
+                "coin2enemy": 320.0,
+                "coin2powerup": 0
+            },
+            "targeting": {
+                "enemy": false,
+                "goldcoin": false,
+                "powerup": false,
+                "goal": true
+            }
+        },
+        "27": {
+            "collisions": {
+                "col_playerEnemy": false,
+                "col_enemyPlayer": false,
+                "col_playerGoldCoin": false,
+                "col_playerPowerUp": false,
+                "col_playerGoal": false
+            },
+            "pressedKeys": [
+                "W"
+            ],
+            "eventSubScore": false,
+            "frameID": 27,
+            "terminated": false,
+            "player": {
+                "pos": [
+                    780.0,
+                    240.0
+                ],
+                "collectedPowerUp": false,
+                "collectedGoldCoin": false,
+                "killedEnemy": false,
+                "collectingPowerUp": false,
+                "collectingGoldCoin": false,
+                "killingEnemy": false,
+                "pressedKeys": [
+                    "W"
+                ]
+            },
+            "enemy": {
+                "pos": [
+                    540.0,
+                    240.0
+                ],
+                "moving": false,
+                "direction": null
+            },
+            "goldcoin": {
+                "pos": [
+                    580.0,
+                    520.0
+                ]
+            },
+            "goal": {
+                "pos": [
+                    780,
+                    40
+                ]
+            },
+            "score": 19,
+            "distances": {
+                "enemy": 240.0,
+                "goldcoin": 480.0,
+                "powerup": 0,
+                "goal": 200.0,
+                "enemy2goal": 440.0,
+                "enemy2coin": 320.0,
+                "powerup2goal": 0,
+                "powerup2enemy": 0,
+                "coin2goal": 680.0,
+                "coin2enemy": 320.0,
+                "coin2powerup": 0
+            },
+            "targeting": {
+                "enemy": false,
+                "goldcoin": false,
+                "powerup": false,
+                "goal": true
+            }
+        },
+        "28": {
+            "collisions": {
+                "col_playerEnemy": false,
+                "col_enemyPlayer": false,
+                "col_playerGoldCoin": false,
+                "col_playerPowerUp": false,
+                "col_playerGoal": false
+            },
+            "pressedKeys": [],
+            "eventSubScore": false,
+            "frameID": 28,
+            "terminated": false,
+            "player": {
+                "pos": [
+                    780.0,
+                    200.0
+                ],
+                "collectedPowerUp": false,
+                "collectedGoldCoin": false,
+                "killedEnemy": false,
+                "collectingPowerUp": false,
+                "collectingGoldCoin": false,
+                "killingEnemy": false,
+                "pressedKeys": []
+            },
+            "enemy": {
+                "pos": [
+                    540.0,
+                    240.0
+                ],
+                "moving": false,
+                "direction": null
+            },
+            "goldcoin": {
+                "pos": [
+                    580.0,
+                    520.0
+                ]
+            },
+            "goal": {
+                "pos": [
+                    780,
+                    40
+                ]
+            },
+            "score": 19,
+            "distances": {
+                "enemy": 280.0,
+                "goldcoin": 520.0,
+                "powerup": 0,
+                "goal": 160.0,
+                "enemy2goal": 440.0,
+                "enemy2coin": 320.0,
+                "powerup2goal": 0,
+                "powerup2enemy": 0,
+                "coin2goal": 680.0,
+                "coin2enemy": 320.0,
+                "coin2powerup": 0
+            },
+            "targeting": {
+                "enemy": false,
+                "goldcoin": false,
+                "powerup": false,
+                "goal": true
+            }
+        },
+        "29": {
+            "collisions": {
+                "col_playerEnemy": false,
+                "col_enemyPlayer": false,
+                "col_playerGoldCoin": false,
+                "col_playerPowerUp": false,
+                "col_playerGoal": false
+            },
+            "pressedKeys": [
+                "W"
+            ],
+            "eventSubScore": false,
+            "frameID": 29,
+            "terminated": false,
+            "player": {
+                "pos": [
+                    780.0,
+                    200.0
+                ],
+                "collectedPowerUp": false,
+                "collectedGoldCoin": false,
+                "killedEnemy": false,
+                "collectingPowerUp": false,
+                "collectingGoldCoin": false,
+                "killingEnemy": false,
+                "pressedKeys": [
+                    "W"
+                ]
+            },
+            "enemy": {
+                "pos": [
+                    540.0,
+                    240.0
+                ],
+                "moving": false,
+                "direction": null
+            },
+            "goldcoin": {
+                "pos": [
+                    580.0,
+                    520.0
+                ]
+            },
+            "goal": {
+                "pos": [
+                    780,
+                    40
+                ]
+            },
+            "score": 19,
+            "distances": {
+                "enemy": 280.0,
+                "goldcoin": 520.0,
+                "powerup": 0,
+                "goal": 160.0,
+                "enemy2goal": 440.0,
+                "enemy2coin": 320.0,
+                "powerup2goal": 0,
+                "powerup2enemy": 0,
+                "coin2goal": 680.0,
+                "coin2enemy": 320.0,
+                "coin2powerup": 0
+            },
+            "targeting": {
+                "enemy": false,
+                "goldcoin": false,
+                "powerup": false,
+                "goal": true
+            }
+        },
+        "30": {
+            "collisions": {
+                "col_playerEnemy": false,
+                "col_enemyPlayer": false,
+                "col_playerGoldCoin": false,
+                "col_playerPowerUp": false,
+                "col_playerGoal": false
+            },
+            "pressedKeys": [],
+            "eventSubScore": false,
+            "frameID": 30,
+            "terminated": false,
+            "player": {
+                "pos": [
+                    780.0,
+                    160.0
+                ],
+                "collectedPowerUp": false,
+                "collectedGoldCoin": false,
+                "killedEnemy": false,
+                "collectingPowerUp": false,
+                "collectingGoldCoin": false,
+                "killingEnemy": false,
+                "pressedKeys": []
+            },
+            "enemy": {
+                "pos": [
+                    540.0,
+                    240.0
+                ],
+                "moving": false,
+                "direction": null
+            },
+            "goldcoin": {
+                "pos": [
+                    580.0,
+                    520.0
+                ]
+            },
+            "goal": {
+                "pos": [
+                    780,
+                    40
+                ]
+            },
+            "score": 19,
+            "distances": {
+                "enemy": 320.0,
+                "goldcoin": 560.0,
+                "powerup": 0,
+                "goal": 120.0,
+                "enemy2goal": 440.0,
+                "enemy2coin": 320.0,
+                "powerup2goal": 0,
+                "powerup2enemy": 0,
+                "coin2goal": 680.0,
+                "coin2enemy": 320.0,
+                "coin2powerup": 0
+            },
+            "targeting": {
+                "enemy": false,
+                "goldcoin": false,
+                "powerup": false,
+                "goal": true
+            }
+        },
+        "31": {
+            "collisions": {
+                "col_playerEnemy": false,
+                "col_enemyPlayer": false,
+                "col_playerGoldCoin": false,
+                "col_playerPowerUp": false,
+                "col_playerGoal": false
+            },
+            "pressedKeys": [
+                "W"
+            ],
+            "eventSubScore": false,
+            "frameID": 31,
+            "terminated": false,
+            "player": {
+                "pos": [
+                    780.0,
+                    160.0
+                ],
+                "collectedPowerUp": false,
+                "collectedGoldCoin": false,
+                "killedEnemy": false,
+                "collectingPowerUp": false,
+                "collectingGoldCoin": false,
+                "killingEnemy": false,
+                "pressedKeys": [
+                    "W"
+                ]
+            },
+            "enemy": {
+                "pos": [
+                    540.0,
+                    240.0
+                ],
+                "moving": false,
+                "direction": null
+            },
+            "goldcoin": {
+                "pos": [
+                    580.0,
+                    520.0
+                ]
+            },
+            "goal": {
+                "pos": [
+                    780,
+                    40
+                ]
+            },
+            "score": 19,
+            "distances": {
+                "enemy": 320.0,
+                "goldcoin": 560.0,
+                "powerup": 0,
+                "goal": 120.0,
+                "enemy2goal": 440.0,
+                "enemy2coin": 320.0,
+                "powerup2goal": 0,
+                "powerup2enemy": 0,
+                "coin2goal": 680.0,
+                "coin2enemy": 320.0,
+                "coin2powerup": 0
+            },
+            "targeting": {
+                "enemy": false,
+                "goldcoin": false,
+                "powerup": false,
+                "goal": true
+            }
+        },
+        "32": {
+            "collisions": {
+                "col_playerEnemy": false,
+                "col_enemyPlayer": false,
+                "col_playerGoldCoin": false,
+                "col_playerPowerUp": false,
+                "col_playerGoal": false
+            },
+            "pressedKeys": [],
+            "eventSubScore": false,
+            "frameID": 32,
+            "terminated": false,
+            "player": {
+                "pos": [
+                    780.0,
+                    120.0
+                ],
+                "collectedPowerUp": false,
+                "collectedGoldCoin": false,
+                "killedEnemy": false,
+                "collectingPowerUp": false,
+                "collectingGoldCoin": false,
+                "killingEnemy": false,
+                "pressedKeys": []
+            },
+            "enemy": {
+                "pos": [
+                    540.0,
+                    240.0
+                ],
+                "moving": false,
+                "direction": null
+            },
+            "goldcoin": {
+                "pos": [
+                    580.0,
+                    520.0
+                ]
+            },
+            "goal": {
+                "pos": [
+                    780,
+                    40
+                ]
+            },
+            "score": 19,
+            "distances": {
+                "enemy": 360.0,
+                "goldcoin": 600.0,
+                "powerup": 0,
+                "goal": 80.0,
+                "enemy2goal": 440.0,
+                "enemy2coin": 320.0,
+                "powerup2goal": 0,
+                "powerup2enemy": 0,
+                "coin2goal": 680.0,
+                "coin2enemy": 320.0,
+                "coin2powerup": 0
+            },
+            "targeting": {
+                "enemy": false,
+                "goldcoin": false,
+                "powerup": false,
+                "goal": true
+            }
+        },
+        "33": {
+            "collisions": {
+                "col_playerEnemy": false,
+                "col_enemyPlayer": false,
+                "col_playerGoldCoin": false,
+                "col_playerPowerUp": false,
+                "col_playerGoal": false
+            },
+            "pressedKeys": [
+                "W"
+            ],
+            "eventSubScore": false,
+            "frameID": 33,
+            "terminated": false,
+            "player": {
+                "pos": [
+                    780.0,
+                    120.0
+                ],
+                "collectedPowerUp": false,
+                "collectedGoldCoin": false,
+                "killedEnemy": false,
+                "collectingPowerUp": false,
+                "collectingGoldCoin": false,
+                "killingEnemy": false,
+                "pressedKeys": [
+                    "W"
+                ]
+            },
+            "enemy": {
+                "pos": [
+                    540.0,
+                    240.0
+                ],
+                "moving": false,
+                "direction": null
+            },
+            "goldcoin": {
+                "pos": [
+                    580.0,
+                    520.0
+                ]
+            },
+            "goal": {
+                "pos": [
+                    780,
+                    40
+                ]
+            },
+            "score": 19,
+            "distances": {
+                "enemy": 360.0,
+                "goldcoin": 600.0,
+                "powerup": 0,
+                "goal": 80.0,
+                "enemy2goal": 440.0,
+                "enemy2coin": 320.0,
+                "powerup2goal": 0,
+                "powerup2enemy": 0,
+                "coin2goal": 680.0,
+                "coin2enemy": 320.0,
+                "coin2powerup": 0
+            },
+            "targeting": {
+                "enemy": false,
+                "goldcoin": false,
+                "powerup": false,
+                "goal": true
+            }
+        },
+        "34": {
+            "collisions": {
+                "col_playerEnemy": false,
+                "col_enemyPlayer": false,
+                "col_playerGoldCoin": false,
+                "col_playerPowerUp": false,
+                "col_playerGoal": false
+            },
+            "pressedKeys": [],
+            "eventSubScore": false,
+            "frameID": 34,
+            "terminated": false,
+            "player": {
+                "pos": [
+                    780.0,
+                    80.0
+                ],
+                "collectedPowerUp": false,
+                "collectedGoldCoin": false,
+                "killedEnemy": false,
+                "collectingPowerUp": false,
+                "collectingGoldCoin": false,
+                "killingEnemy": false,
+                "pressedKeys": []
+            },
+            "enemy": {
+                "pos": [
+                    540.0,
+                    240.0
+                ],
+                "moving": false,
+                "direction": null
+            },
+            "goldcoin": {
+                "pos": [
+                    580.0,
+                    520.0
+                ]
+            },
+            "goal": {
+                "pos": [
+                    780,
+                    40
+                ]
+            },
+            "score": 19,
+            "distances": {
+                "enemy": 400.0,
+                "goldcoin": 640.0,
+                "powerup": 0,
+                "goal": 40.0,
+                "enemy2goal": 440.0,
+                "enemy2coin": 320.0,
+                "powerup2goal": 0,
+                "powerup2enemy": 0,
+                "coin2goal": 680.0,
+                "coin2enemy": 320.0,
+                "coin2powerup": 0
+            },
+            "targeting": {
+                "enemy": false,
+                "goldcoin": false,
+                "powerup": false,
+                "goal": true
+            }
+        },
+        "35": {
+            "collisions": {
+                "col_playerEnemy": false,
+                "col_enemyPlayer": false,
+                "col_playerGoldCoin": false,
+                "col_playerPowerUp": false,
+                "col_playerGoal": false
+            },
+            "pressedKeys": [
+                "W"
+            ],
+            "eventSubScore": false,
+            "frameID": 35,
+            "terminated": false,
+            "player": {
+                "pos": [
+                    780.0,
+                    80.0
+                ],
+                "collectedPowerUp": false,
+                "collectedGoldCoin": false,
+                "killedEnemy": false,
+                "collectingPowerUp": false,
+                "collectingGoldCoin": false,
+                "killingEnemy": false,
+                "pressedKeys": [
+                    "W"
+                ]
+            },
+            "enemy": {
+                "pos": [
+                    540.0,
+                    240.0
+                ],
+                "moving": false,
+                "direction": null
+            },
+            "goldcoin": {
+                "pos": [
+                    580.0,
+                    520.0
+                ]
+            },
+            "goal": {
+                "pos": [
+                    780,
+                    40
+                ]
+            },
+            "score": 19,
+            "distances": {
+                "enemy": 400.0,
+                "goldcoin": 640.0,
+                "powerup": 0,
+                "goal": 40.0,
+                "enemy2goal": 440.0,
+                "enemy2coin": 320.0,
+                "powerup2goal": 0,
+                "powerup2enemy": 0,
+                "coin2goal": 680.0,
+                "coin2enemy": 320.0,
+                "coin2powerup": 0
+            },
+            "targeting": {
+                "enemy": false,
+                "goldcoin": false,
+                "powerup": false,
+                "goal": true
+            }
+        },
+        "36": {
+            "collisions": {
+                "col_playerEnemy": false,
+                "col_enemyPlayer": false,
+                "col_playerGoldCoin": false,
+                "col_playerPowerUp": false,
+                "col_playerGoal": true
+            },
+            "pressedKeys": [],
+            "eventSubScore": false,
+            "frameID": 36,
+            "terminated": true,
+            "player": {
+                "pos": [
+                    780.0,
+                    40.0
+                ],
+                "collectedPowerUp": false,
+                "collectedGoldCoin": false,
+                "killedEnemy": false,
+                "collectingPowerUp": false,
+                "collectingGoldCoin": false,
+                "killingEnemy": false,
+                "pressedKeys": []
+            },
+            "enemy": {
+                "pos": [
+                    540.0,
+                    240.0
+                ],
+                "moving": false,
+                "direction": null
+            },
+            "goldcoin": {
+                "pos": [
+                    580.0,
+                    520.0
+                ]
+            },
+            "goal": {
+                "pos": [
+                    780,
+                    40
+                ]
+            },
+            "score": 19,
+            "distances": {
+                "enemy": 440.0,
+                "goldcoin": 680.0,
+                "powerup": 0,
+                "goal": 0.0,
+                "enemy2goal": 440.0,
+                "enemy2coin": 320.0,
+                "powerup2goal": 0,
+                "powerup2enemy": 0,
+                "coin2goal": 680.0,
+                "coin2enemy": 320.0,
+                "coin2powerup": 0
+            },
+            "targeting": {
+                "enemy": false,
+                "goldcoin": false,
+                "powerup": false,
+                "goal": false
+            }
+        }
+    }
+}
