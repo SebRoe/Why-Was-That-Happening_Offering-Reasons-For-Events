@@ -38,7 +38,7 @@ class InterpreterDynamicTSCE():
         for cPerson in reversed(self.data.rollout.keys()):
             for cTimestep in self.data.rollout[cPerson].keys():
                 
-                cData = self.data.get_person_at_ts_variable(cPerson, cTimestep, "Age")
+                cData = self.data.get_person_at_ts_variable(cPerson, cTimestep,"Age")
                 if context == None:
                     if not (cData > 25 and cData < 27):
                         continue
@@ -64,7 +64,8 @@ class InterpreterDynamicTSCE():
 
         # We are asking if some variable is below average 
         cPersonValue = self.data.get_person_at_ts_variable(person, ts, variable)
-        cPopulationMean = self.data.get_mean(ts, variable)
+        cPersonsAge = self.data.get_person_at_ts_variable(person, ts, "Age")
+        cPopulationMean = self.data.get_mean(ts, variable, cPersonsAge)
 
         if self.R(cPersonValue, cPopulationMean):
             if verbose: print("Question is a True Statement")
@@ -140,7 +141,7 @@ class InterpreterDynamicTSCE():
 
 
 
-    def _getIndicator(self, cNode, lag, contextGraph):
+    def _getIndicator(self, cNode, lag, contextGraph, age_patient_child):
         """
         Indicator function for the SCI.
         For better understanding of the indicator function:
@@ -150,8 +151,8 @@ class InterpreterDynamicTSCE():
         [ 0, 1, X] -> "although the high"
         """
 
-        cCausalMuChild = self.data.get_mean(cNode.timestepCausalChild, cNode.causalChild)
-        cCausalMuParent = self.data.get_mean(cNode.timestepCausalParent, cNode.causalParent)
+        cCausalMuChild = self.data.get_mean(cNode.timestepCausalChild, cNode.causalChild, age_patient_child)
+        cCausalMuParent = self.data.get_mean(cNode.timestepCausalParent, cNode.causalParent, age_patient_child)
 
         cCausalValueParent = self.data.get_person_at_ts_variable(cNode.person, cNode.timestepCausalParent, cNode.causalParent)
         cCausalValueChild = self.data.get_person_at_ts_variable(cNode.person, cNode.timestepCausalChild,  cNode.causalChild)
@@ -205,7 +206,10 @@ class InterpreterDynamicTSCE():
                     relationStrength=cDirectCauses.loc[f"{lag}_{varName}"]
                 )
 
-                cNode.indicator = self._getIndicator(cNode, lag, cContextGraph)
+                age_patient_child = self.data.get_person_at_ts_variable(person, ts, "Age")
+                #age_patient_parent = self.data.get_person_at_ts_variable(person, ts-abs(lag), "Age")
+
+                cNode.indicator = self._getIndicator(cNode, lag, cContextGraph, age_patient_child)
                 cCheckTS = ts - abs(lag)
 
                 cNode.parent = node 
@@ -332,7 +336,12 @@ class InterpreterDynamicTSCE():
             timefunction = _helperTimeInformations
 
             def _helperPositioning(node):
-                if self.data.get_mean(node.timestepCausalParent, node.name) < self.data.get_person_at_ts(node.timestepCausalParent, node.person)[node.name]:
+
+                patientAgeChild = self.data.get_person_at_ts(node.timestepCausalChild, node.person)["Age"]
+                patientAgeParent = self.data.get_person_at_ts(node.timestepCausalParent, node.person)["Age"]
+
+
+                if self.data.get_mean(node.timestepCausalParent, node.name, patientAgeParent) < self.data.get_person_at_ts(node.timestepCausalParent, node.person)[node.name]:
                     return "above"
                 else:
                     return "below"
